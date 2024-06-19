@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: var(--dark-color);
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+#about, #reservations {
+    background-color: var(--light-color);
+}
+
+#menu {
+    background-color: var(--light-color);
+}
+
+#contact {
+    background-color: var(--light-color);
+}
+
+#testimonials {
+    background-color: var(--light-color);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: var(--dark-color);
+}
