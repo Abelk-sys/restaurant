@@ -1,0 +1,156 @@
+:root {
+    --primary-color: #007bff;
+    --primary-dark-color: #0056b3;
+    --light-color: #f8f9fa;
+    --dark-color: #343a40;
+    --text-color: #ffffff;
+    --highlight-color: #ffdd00;
+}
+
+body {
+    font-family: "poppins", Arial, sans-serif;
+    color: var(--dark-color);
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: var(--text-color);
+}
+/* Custom navbar background color */
+.navbar-custom {
+    background-color: #C3590B; /* Replace this with your desired color */
+}
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.161);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-light {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.btn-secondary {
+    background-color: #C3590B;
+    color: var(--text-color);
+}
+
+#menu .card {
+    transition: transform 0.3s;
+}
+
+#menu .card:hover {
+    transform: scale(1.05);
+}
+
+#reservations .reservation-btn {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#reservations .reservation-btn:hover {
+    background-color: var(--primary-dark-color);
+    color: var(--text-color);
+}
+
+.follow-us .btn-social-icon {
+    margin: 5px;
+    font-size: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.follow-us .btn-social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Testimonial Section */
+#testimonials {
+    background-color: var(--light-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#testimonials h2 {
+    margin-bottom: 40px;
+}
+
+.testimonial-card {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -65px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background-color: var(--light-color);
+    border: 5px solid var(--text-color);
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-card:hover img {
+    transform: rotate(360deg);
+}
+
+.rating {
+    font-size: 1.2rem;
+    color: var(--highlight-color);
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.rating .star {
+    margin: 0 2px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.rating .star:hover {
+    transform: scale(1.2);
+}
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+blockquote {
+    border-left: 5px solid var(--primary-color);
+    padding-left: 15px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--dark-color);
+    color: var(--text-color);
+}
+/* Custom footer background color */
+.footer-custom {
+    background-color: #C3590B; /* Replace this with your desired color */
+    color: #ffffff; /* Optional: Set text color if needed */
+}
+
